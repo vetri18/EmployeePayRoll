@@ -120,3 +120,7 @@ C:\Users\91888\Desktop\MVC\EmployeePayrollMVC\EmployeePayrollMVC\obj\Debug\netco
 C:\Users\91888\Desktop\MVC\EmployeePayrollMVC\EmployeePayrollMVC\obj\Debug\netcoreapp3.1\EmployeePayrollMVC.pdb
 C:\Users\91888\Desktop\MVC\EmployeePayrollMVC\EmployeePayrollMVC\obj\Debug\netcoreapp3.1\EmployeePayrollMVC.genruntimeconfig.cache
 C:\Users\91888\Desktop\MVC\EmployeePayrollMVC\EmployeePayrollMVC\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Create.cshtml.g.cs
+C:\Users\91888\Desktop\MVC\EmployeePayrollMVC\EmployeePayrollMVC\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Index.cshtml.g.cs
+C:\Users\91888\Desktop\MVC\EmployeePayrollMVC\EmployeePayrollMVC\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Details.cshtml.g.cs
+C:\Users\91888\Desktop\MVC\EmployeePayrollMVC\EmployeePayrollMVC\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Delete.cshtml.g.cs
+C:\Users\91888\Desktop\MVC\EmployeePayrollMVC\EmployeePayrollMVC\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Edit.cshtml.g.cs
