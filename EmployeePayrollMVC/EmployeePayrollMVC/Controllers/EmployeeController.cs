@@ -17,11 +17,17 @@ namespace EmployeePayrollMVC.Controllers
         }
         public IActionResult Index()
         {
-            List<EmployeeModel> lstEmployee = new List<EmployeeModel>();
-            lstEmployee = EmployeeBL.getEmployeeList().ToList();
+           List<EmployeeModel> lstEmployee = new List<EmployeeModel>();
+           lstEmployee = EmployeeBL.getEmployeeList().ToList();
 
             return View(lstEmployee);
         }
+        //public JsonResult GetAllEmployees()
+        //{
+        //    List<EmployeeModel> employeelist = this.EmployeeBL.getEmployeeList();
+        //    return Json(employeelist);
+
+        //}
         [HttpGet]
         public IActionResult Create()
         {
@@ -39,6 +45,13 @@ namespace EmployeePayrollMVC.Controllers
             }
             return View(employee);
         }
+        [HttpPost]
+
+        public JsonResult Createjson(EmployeeModel employee)
+        {
+            EmployeeBL.AddEmployee(employee);
+            return Json(employee);
+        }
         [HttpGet]
         public IActionResult Details(int? id)
         {
@@ -53,6 +66,13 @@ namespace EmployeePayrollMVC.Controllers
                 return NotFound();
             }
             return View(employee);
+        }
+        public JsonResult GetAll()
+        {
+            List<EmployeeModel> lstEmployee = new List<EmployeeModel>();
+            lstEmployee = EmployeeBL.getEmployeeList().ToList();
+
+            return Json(lstEmployee);
         }
         [HttpGet]
         public IActionResult Delete(int? id)
